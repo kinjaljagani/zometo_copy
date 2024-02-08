@@ -1,0 +1,108 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Header-logo{
+/* max-width: 150px; */
+max-width: 14rem;
+    height: 1.7rem;
+    display: block;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    color: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    padding: 10px;
+    gap: 10px;
+    width: 65%;
+    height: 3.4rem;
+    border-radius: 10px;
+    /* background-color: rgb(247, 243, 243); */
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    
+}
+.search .d-flex{
+    width: 100%;
+    justify-content: flex-start;
+    text-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+.fa-location-dot{
+    
+    color: red;
+}
+.fa-search{
+    color: rgb(105, 105, 105);
+}
+.search-left{
+    display: flex;
+    /* justify-content: space-around; */
+    position: relative;
+    height: 100%;
+    /* width: max-content; */
+    border-radius: 0.8rem;
+   
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.search-select{
+    color: rgb(105, 105, 105);
+    width: 200px;
+    background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 0px;
+  -webkit-appearance: none;
+  
+}
+.search p{
+
+    color: rgb(105, 105, 105);
+}
+.search-right{
+    display: flex;
+    position: relative;
+    height: 100%;
+    /* border-radius: 0.8rem; */
+    /* -webkit-box-align: center; */
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.right-header{
+    display: flex;
+    font-size: 1.2rem;
+    position: relative;
+    height: 100%;
+    border-radius: 0.8rem;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.right-header a{
+    
+    text-decoration: none;
+    line-height: 1.5;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 0.8rem !important;
+}
+
+.search-right input{
+    width: 100%;
+}
